@@ -28,9 +28,9 @@
 #include <jni_android.h>
 
 #define REQUEST_STORAGE_PERMISSION
+#define ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION
 
 #define REQUEST_MESSAGE_TITLE "Permission required"
-#define REQUEST_MESSAGE_TEXT "Sonic Robo Blast 2 needs storage permission.\nYour settings and game progress will not be saved if you decline."
 
 static void PermissionRequestMessage(void)
 {
