@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.stjr.srb2"
-    android:versionCode="22130"
+    android:versionCode="22131"
     android:versionName="2.2.13"
     android:installLocation="auto">
 
@@ -45,7 +45,7 @@
         android:icon="@mipmap/ic_launcher"
         android:isGame="true"
         android:allowBackup="true"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:theme="@style/AppTheme"
         android:hardwareAccelerated="true" >
 
         <activity android:name="SRB2Game"
